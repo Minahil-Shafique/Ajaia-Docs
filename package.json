@@ -1,0 +1,20 @@
+{
+  "name": "ajaia-docs",
+  "version": "1.0.0",
+  "description": "Lightweight collaborative document editor (take-home assignment)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/api.test.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mammoth": "^1.8.0",
+    "marked": "^12.0.2",
+    "multer": "^2.0.0",
+    "sanitize-html": "^2.13.0"
+  }
+}
